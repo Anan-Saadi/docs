@@ -1,0 +1,1 @@
+const e={key:"v-3d3efe5e",path:"/recipes/update_widget_on_change.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1618151336e3,contributors:[{name:"Simon Leier",email:"simonleier@gmail.com",commits:1}]},filePathRelative:"recipes/update_widget_on_change.md"};export{e as data};
