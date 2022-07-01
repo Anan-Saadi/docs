@@ -10,6 +10,7 @@ As you know, Isar works on mobile devices and desktops running on the VM as well
 
 Because Isar Web relies on IndexedDB, there are more limitations but they are barely noticeable while using Isar.
 
+- synchronous methods are not supported
 - Currently, `Isar.splitWords()` and `.matches()` filters are not yet implemented
 - Schema changes are not as tighly checked as in the VM so be careful to comply with the rules
 - All number types are stored as double (the only js number type) so `@Size32` has no effect
