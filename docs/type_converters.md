@@ -65,3 +65,5 @@ final marriedPersons = await isar.persons
 ```
 
 There is only one very important thing to keep in mind: You may change the converter for an existing field but the `database type` **MUST BE THE SAME**. Otherwise the schema migration will fail.
+
+:::warning for storing a type of `List<Object>` the convertor must take a `List<Object>` and return either `List<String>` or `String`:::
